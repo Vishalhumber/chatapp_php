@@ -1,0 +1,30 @@
+.chat-box {
+    border: 1px solid #ccc;
+    height: 500px;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.chat-log {
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.chat-input {
+    margin-top: 10px;
+    display: flex;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.chat-input button {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
